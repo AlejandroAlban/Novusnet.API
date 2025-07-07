@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ServicioEntidad\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Novusnet.Dominio.Modelo\Novusnet.Dominio.Modelo.csproj" />
+    <ProjectReference Include="..\Novusnet.Dominio.Servicio\Novusnet.Dominio.Servicio.csproj" />
+    <ProjectReference Include="..\Novusnet.Infraestructura.AccesoDatos\Novusnet.Infraestructura.AccesoDatos.csproj" />
+  </ItemGroup>
+
+</Project>
