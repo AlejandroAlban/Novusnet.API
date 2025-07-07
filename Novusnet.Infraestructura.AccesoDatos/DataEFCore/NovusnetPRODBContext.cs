@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Novusnet.Infraestructura.AccesoDatos;
 
-public partial class NovusnetPROContext : DbContext
+public partial class NovusnetPRODBContext : DbContext
 {
-    public NovusnetPROContext()
+    public NovusnetPRODBContext()
     {
     }
 
-    public NovusnetPROContext(DbContextOptions<NovusnetPROContext> options)
+    public NovusnetPRODBContext(DbContextOptions<NovusnetPRODBContext> options)
         : base(options)
     {
     }
